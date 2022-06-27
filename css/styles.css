@@ -31,6 +31,7 @@ body {
   /* еспериментирование с рамкой */
   border: 1px solid #f00;
 }
+
 /* common css */
 html {
   box-sizing: border-box;
@@ -89,20 +90,13 @@ img {
   width: 1600px;
 }
 
-.header>.container {
-  width: 1200px; 
-  display: flex;
-  /* flex-direction: row; */
-  align-items: center;
-  justify-content: space-evenly;
-  padding-top: 25px;
-  padding-bottom: 25px;
-}
 .container {
-  padding-left: 15px;
-  padding-right: 15px;
-  min-width:1200px;
+  width: 1200px; 
+  margin: 0 auto;
+  padding: 0 15px; 
+  outline: 1px solid teal;
 }
+
 
 .logo {
   font-family: var(--secondary-font-family);
@@ -112,7 +106,7 @@ img {
   color: var(--main-dark-color);
   flex-basis: 130px;
   /* padding: 115; */
-  margin-left: 50px;
+  /* margin-left: 50px; */
   
 }
 .actyvity.no-padding {
@@ -121,16 +115,16 @@ img {
 }
 
 
-.menu-list  {
-  display: flex;  
-   /* justify-content: start; 
-   align-items: center;  */
- 
-}
-.contacts {
+/* .menu-list  {
+   display: flex;   
+    justify-content: start; 
+   align-items: center;  
+} */
+
+/* .contacts {
   display: flex;
   
-}
+} */
 .contact-mail {
   /* margin-left:150px; */
   margin-right: 50px;
@@ -202,12 +196,13 @@ color:var(--main-color);
   width: 1600px;
   margin-bottom: 95px;
 }
-.hat>.container
+
+/* .hat>.container
 { 
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+}  */
 
 .hat-tytle {
   margin: 0 auto;
@@ -237,7 +232,7 @@ color:var(--main-color);
 
 .portfolio-btn {
   border: none;
-   cursor: pointer;
+  cursor: pointer;
   font-family: inherit;
   color: var(--main-dark-color);
   background-color: var(--fird-color);
@@ -258,6 +253,7 @@ color:var(--main-color);
 .portfolio {
   margin-bottom: 95px;
   }
+
 .content-tytle {
   color: var(--secondary-color);
   font-family: inherit;
@@ -370,11 +366,11 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 
-footer>.container {
+/* footer>.container {
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 215px;
-}
+} */
 
 /* footer end */
 
