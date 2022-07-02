@@ -82,6 +82,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
  .nav {
   display: flex;
   align-items: center;
@@ -239,8 +240,9 @@ color:var(--main-color);
   font-family: inherit;
   color: var(--main-dark-color);
   background-color: var(--fird-color);
-  margin-top: 30px;
-  margin-bottom: 200px; 
+  padding: 6px 22px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 
 .peculiarities {
@@ -250,12 +252,16 @@ color:var(--main-color);
 .peculiarities-list, .portfolio-list {
   background-color: var(--main-light-color);
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
 }
+
 .portfolio {
   margin-bottom: 95px;
   }
+
+.portfolio-list .portfolio-item+.portfolio-item+ {
+margin-right: 8px;
+}
 
 .content-tytle {
   color: var(--secondary-color);
@@ -413,7 +419,7 @@ padding-bottom:20px ;
   color: var(--accent-color);
 }
 .exemple-container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -425,11 +431,13 @@ padding-bottom:20px ;
   outline: 1px tomato;
   display: flex;
   flex-wrap: wrap;
+  gap:30px;
 }
 
 .exemple-item {
   outline: 1px solid teal;
-  flex-basis: calc(100%/3 - 30px);
-  margin-left: 30px;
-  margin-top: 30px;
+ flex-basis: calc(100%/3-30px);
+  /* margin-left: 30px;
+  margin-top: 30px;  */
+ 
 }
