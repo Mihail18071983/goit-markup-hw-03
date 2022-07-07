@@ -16,8 +16,8 @@
   --sec-border-color: #eeeeee;
 
   /* paddings */
-  --in-top-gap: 95px;
-  --in-bottom-gap: 95px;
+  --in-top-gap: 94px;
+  --in-bottom-gap: 94px;
 }
 
 body {
@@ -51,8 +51,9 @@ h6 {
 }
 
 .section {
-  padding-top: var(--in-top-gap);
-  padding-bottom: var(--in-bottom-gap);
+  padding: 94px 0;
+  margin:0 auto;
+   
 }
 
 .list {
@@ -193,14 +194,16 @@ img {
 /* main */
 
 /* шапка */
+
 .hat {
   background-color: var(--secondary-bc-color);
-  margin-bottom: 95px;
-}
-
-.hat > .container {
   padding-top: 200px;
   padding-bottom: 200px;
+  }
+
+.hat > .container {
+  /* padding-top: 200px;
+  padding-bottom: 200px; */
   text-align: center;
 }
 
@@ -218,7 +221,7 @@ img {
 }
 
 .btn-tytle {
-  border: 1px solid transparent;
+  border: none;
   border-radius: 4px;
   cursor: pointer;
   color: var(--main-dark-color);
@@ -244,7 +247,7 @@ img {
   color: var(--main-dark-color);
   background-color: var(--fird-color);
   padding: 6px 22px;
-  border: 1px solid transparent;
+  border: none;
   border-radius: 4px;
 }
 
@@ -259,7 +262,8 @@ img {
 }
 
 .portfolio-list .portfolio-item + .portfolio-item {
-  margin-left: 8px;
+  margin-left: 8px; 
+  
 }
 
 .content-tytle {
@@ -281,6 +285,10 @@ img {
 /* шапка-конец */
 
 /* actyvity */
+
+.actyvity {
+padding-top: 0;
+}
 
 .actyvity-tytle,
 .team-tytle {
@@ -418,10 +426,10 @@ img {
   outline: 1px tomato;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+   gap: 30px; 
 }
 
 .exemple-item {
   border-bottom: 1px solid var(--sec-border-color);
-  flex-basis: calc(100% / 3-30px);
+  /* flex-basis: calc(100% / 3-30px); */
 }
