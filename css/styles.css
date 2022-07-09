@@ -43,7 +43,7 @@ p {
 
 .section {
   padding: 94px 0;
-  /* margin: 0 auto; */
+  
 }
 
 .list {
@@ -106,7 +106,7 @@ img {
   width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
-  /* outline: 1px solid rgb(102, 0, 128); */
+  
 }
 
 .logo {
@@ -237,13 +237,6 @@ img {
   border-radius: 4px;
 }
 
-/* .section.peculiarities {
-  padding-top: 106px;
-} */
-
-.section.portfolio {
-  padding-bottom: 100px;
-}
 
 .peculiarities-list,
 .portfolio-list {
@@ -342,11 +335,15 @@ img {
 .team-item {
   background-color: var(--main-light-color);
   width: 270px;
-  padding-bottom: 30px;
+  }
+
+.work-pos {
+  padding: 30px 0;
 }
-.team-item > img {
+
+/* .team-item > img {
   margin-bottom: 30px;
-}
+} */
 
 .team-list {
   display: flex;
@@ -361,6 +358,7 @@ img {
 
 
 /* main end */
+
 
 /* footer */
 .footer {
@@ -411,7 +409,6 @@ img {
   letter-spacing: 0.06em;
   color: var(--secondary-color);
   text-align: left;
-  padding: 0 25px;
   margin-bottom: 5px;
 }
 
@@ -421,18 +418,17 @@ img {
   color: var(--main-color);
   text-align: left;
   letter-spacing: 0.03em;
-  padding-right: 24px;
-  padding-left: 24px;
   padding-top: 0;
 }
 
-.exemple-item > img {
-  margin-bottom: 20px;
+
+.card-tytle {
+  padding: 20px 24px;
+  border-left: 1px solid var(--sec-border-color);
+  border-right: 1px solid var(--sec-border-color);
+  border-bottom: 1px solid var(--sec-border-color);
 }
 
-.exemple-item {
-  padding-bottom: 20px;
-}
 .сurrent {
   color: var(--accent-color);
 }
@@ -443,7 +439,4 @@ img {
   gap: 30px;
 }
 
-.exemple-item {
-  border-bottom: 1px solid var(--sec-border-color);
-  /* flex-basis: calc(100% / 3-30px); */
-}
+
